@@ -1,0 +1,8 @@
+package: .
+import:
+- package: github.com/jinzhu/gorm
+  version: ^1.9.2
+  subpackages:
+  - dialects/mssql
+- package: github.com/labstack/echo
+  version: ^3.3.8
